@@ -1,0 +1,13 @@
+{
+  "name": "agence-setting-generateur",
+  "version": "1.0.0",
+  "description": "Générateur de propositions commerciales — Agence Setting",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  }
+}
