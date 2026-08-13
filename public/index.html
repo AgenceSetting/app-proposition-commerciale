@@ -420,7 +420,6 @@ function validate(d){
   if(!d.name)return'Veuillez renseigner le nom du prospect.';
   if(!d.company)return"Veuillez renseigner l'activité du prospect.";
   if(!d.notes||d.notes.length<40)return'Les notes de l\'appel de découverte doivent être plus détaillées.';
-  if(!d.key)return'Veuillez renseigner votre clé API Anthropic.';
   return null;
 }
 
